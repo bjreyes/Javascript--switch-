@@ -23,6 +23,21 @@
      break;
  }
 
-if(cantidad > 10) {
-  
+icompra = precio * cantidad
+
+if(cantidad >= 10) {
+	desc = icompra * 0.125;
+}else {
+if (cantidad >= 7) {
+	desc = icompra * 0.10;
+}else {
+if (cantidad >= 4) {
+	desc = icompra * 0.075;
+}else {
+	desc= icompra * 0.05;
 }
+}	
+}	
+}
+
+ipagar = icompra - desc 	
