@@ -2,26 +2,26 @@
  //declaracion de variables
  var puntaje,calificacion;
  //Entrada de datos
- puntaje = 4
+ puntaje = 4;
  //Proceso
  switch (puntaje) {
    case 1 :
-    calificacion = pesimo
+    calificacion ="pesimo";
     break;
    case 2 :
-    calificacion = pesimo
+    calificacion ="pesimo";
     break;
    case 3 :
-    calificacion = regular
+    calificacion ="regular";
     break;
    case 4 :
-    calificacion = regular
+    calificacion ="regular";
     break;
    case 5 :
-    calificacion = muy bien
+    calificacion ="muy bien";
     break;
    case 6 :
-    calificacion = excelente
+    calificacion ="excelente";
     break;
  }
- console.log (calificacion);
+ console.log(calificacion);
